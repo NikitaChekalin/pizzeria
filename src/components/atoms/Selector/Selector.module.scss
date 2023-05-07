@@ -1,0 +1,9 @@
+@import '../../../styles/variables.scss';
+
+.root {
+  display: flex;
+  background-color: $gray-f3;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 6px;
+}

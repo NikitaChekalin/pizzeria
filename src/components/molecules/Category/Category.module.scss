@@ -1,0 +1,23 @@
+@import '../../../styles/variables.scss';
+.root {
+  background-color: $gray-f9;
+  padding: 13px 30px;
+  border-radius: 30px;
+  margin-right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+
+  &:hover {
+    background-color: darken($gray-f9, 2%);
+  }
+
+  &:active {
+    background-color: darken($gray-f9, 5%);
+  }
+
+  &.active {
+    color: $white;
+    background-color: $black28Color;
+  }
+}
